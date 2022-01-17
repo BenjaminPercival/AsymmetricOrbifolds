@@ -1,0 +1,201 @@
+unit-resolution(def-axiom(Or(Or(Not(c31) == c18,
+                                ((c31 == c35) ==
+                                 (Not(c39) == c1)) ==
+                                ((c18 == c19) ==
+                                 (Not(c20) == c21)),
+                                c39 == c21,
+                                c40 == c22),
+                             Not(c39 == c21))),
+                unit-resolution(def-axiom(Or(c39 == c21,
+                                        Not(c39),
+                                        Not(c21))),
+                                unit-resolution(lemma(unit-resolution(def-axiom(Or(Not(Not(c36) ==
+                                        c2),
+                                        Not(c36),
+                                        Not(c2))),
+                                        unit-resolution(def-axiom(Or(Not(Not(c39) ==
+                                        c2),
+                                        c39,
+                                        c2)),
+                                        unit-resolution(def-axiom(Or(Not((c31 ==
+                                        c35) ==
+                                        (Not(c39) == c2)),
+                                        Not(c31 == c35),
+                                        Not(c39) == c2)),
+                                        unit-resolution(def-axiom(Or(Not(((c31 ==
+                                        c35) ==
+                                        (Not(c39) == c2)) ==
+                                        ((c24 == c25) ==
+                                        (Not(c26) == c27))),
+                                        (c31 == c35) ==
+                                        (Not(c39) == c2),
+                                        Not((c24 == c25) ==
+                                        (Not(c26) == c27)))),
+                                        unit-resolution(lemma(unit-resolution(def-axiom(Or(Not(c36) ==
+                                        c2,
+                                        Not(c36),
+                                        c2)),
+                                        unit-resolution(def-axiom(Or(Not(c39) ==
+                                        c2,
+                                        c39,
+                                        Not(c2))),
+                                        unit-resolution(def-axiom(Or((c31 ==
+                                        c35) ==
+                                        (Not(c39) == c2),
+                                        Not(c31 == c35),
+                                        Not(Not(c39) == c2))),
+                                        unit-resolution(def-axiom(Or(Not(((c31 ==
+                                        c35) ==
+                                        (Not(...) == c2)) ==
+                                        ((c24 == c25) ==
+                                        (Not(...) == c27))),
+                                        Not((c31 == c35) ==
+                                        (Not(c39) == c2)),
+                                        (c24 == c25) ==
+                                        (Not(c26) == c27))),
+                                        hypothesis(Not((c24 ==
+                                        c25) ==
+                                        (Not(c26) == c27))),
+                                        hypothesis(((c31 ==
+                                        c35) ==
+                                        (Not(c39) == c2)) ==
+                                        ((c24 == c25) ==
+                                        (Not(c26) == c27))),
+                                        Not((c31 == c35) ==
+                                        (Not(c39) == c2))),
+                                        hypothesis(c31 ==
+                                        c35),
+                                        Not(Not(c39) == c2)),
+                                        hypothesis(Not(c39)),
+                                        Not(c2)),
+                                        unit-resolution(def-axiom(Or((c30 ==
+                                        c35) ==
+                                        (Not(c36) == c2),
+                                        Not(c30 == c35),
+                                        Not(Not(c36) == c2))),
+                                        unit-resolution(def-axiom(Or(Not(((c30 ==
+                                        c35) ==
+                                        (Not(c36) == c2)) ==
+                                        ((c24 == c25) ==
+                                        (Not(c26) == c27))),
+                                        Not((c30 == c35) ==
+                                        (Not(c36) == c2)),
+                                        (c24 == c25) ==
+                                        (Not(c26) == c27))),
+                                        hypothesis(Not((c24 ==
+                                        c25) ==
+                                        (Not(c26) == c27))),
+                                        hypothesis(((c30 ==
+                                        c35) ==
+                                        (Not(c36) == c2)) ==
+                                        ((c24 == c25) ==
+                                        (Not(c26) == c27))),
+                                        Not((c30 == c35) ==
+                                        (Not(c36) == c2))),
+                                        hypothesis(c30 ==
+                                        c35),
+                                        Not(Not(c36) == c2)),
+                                        lemma(unit-resolution(lemma(unit-resolution(def-axiom(Or(Not(Or(c38 ==
+                                        c29,
+                                        Not(...) == c24,
+                                        c36 == c27,
+                                        ((...) == (...)) ==
+                                        ((...) == (...)),
+                                        Not(...) == c28)),
+                                        0 ==
+                                        If(Or(... == ...,
+                                        ... == ...,
+                                        ... == ...,
+                                        (...) == (...),
+                                        ... == ...),
+                                        0,
+                                        2))),
+                                        unit-resolution(def-axiom(Or(Or(c38 ==
+                                        c29,
+                                        Not(...) == c24,
+                                        c36 == c27,
+                                        ((...) == (...)) ==
+                                        ((...) == (...)),
+                                        Not(...) == c28),
+                                        2 ==
+                                        If(Or(...,
+                                        ...,
+                                        ...,
+                                        ...,
+                                        ...),
+                                        0,
+                                        2))),
+                                        unit-resolution(lemma(unit-resolution(th-lemma(Or(...,
+                                        ...)),
+                                        hypothesis(... ==
+                                        ...),
+                                        hypothesis(Not(...)),
+                                        False),
+                                        Or(Not(... == ...),
+                                        If(..., ..., ...) >=
+                                        2)),
+                                        th-lemma(lemma(unit-resolution(def-axiom(...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        False),
+                                        If(..., ..., ...) >=
+                                        0),
+                                        lemma(unit-resolution(def-axiom(...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        False),
+                                        If(..., ..., ...) <=
+                                        0),
+                                        hypothesis(If(...,
+                                        ...,
+                                        ...) >=
+                                        0),
+                                        unit-resolution(th-lemma(Or(...,
+                                        ...)),
+                                        unit-resolution(def-axiom(...),
+                                        hypothesis(...),
+                                        ... == ...),
+                                        If(..., ..., ...) >=
+                                        2),
+                                        lemma(unit-resolution(def-axiom(...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        False),
+                                        If(..., ..., ...) <=
+                                        0),
+                                        lemma(unit-resolution(def-axiom(...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        unit-resolution(...,
+                                        ...,
+                                        ...),
+                                        False),
+                                        If(..., ..., ...) <=
+                                        0),
+                                        unit-resolution(th-lemma(Or(...,
+                                        ...)),
+                                        mp(mp(..., ..., ...),
+                                        symm(..., ...),
+                                        ... == ...),
+                                        ... +
+                                        ... +
+                                        ... +
+                                        ... +
+                                        ... +
+                                        ... +
+                                        ... +
+                                        ... +
+...
